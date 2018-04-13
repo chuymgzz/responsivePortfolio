@@ -1,0 +1,135 @@
+/**
+ * This is the general code for the html document
+ */
+
+ #profile {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(194, 194, 194);
+}
+
+/**
+ * This is the code for the header
+ */
+
+ header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 100%;
+    background-color: whITE;
+    height: 75px;
+}
+
+#boxName {
+    width: 200px;
+    height: 75px;
+    text-align: center;
+    line-height: 80px;
+    background-color: teal;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    position: relative;
+    left: 0px;
+    color: white;
+    margin-left: 200px;
+}
+
+#nav {
+    position: relative;
+    float: right;
+    right: 0;
+    top: 25px;
+    margin-right: 200px;
+}
+
+
+/**
+ * This is the code for the form
+ */
+
+
+
+
+
+#background {
+	background-color: rgb(199, 199, 199);
+	height: 100%;
+
+}
+
+#contact {
+	width:65%; height:65%; margin: 0 auto; background: rgb(255, 255, 255);
+	margin-top: 20px;
+}
+
+.container {
+	width:90%; height:auto; margin: 0 auto; padding: 50px 0;
+}
+
+#contact .container form input,
+#contact .container form textarea {
+	width:80%;
+	margin-left: 50px;
+	height:30px;
+	padding:0px 10px;
+	font-size: 12px;
+	color:rgb(250, 250, 250);
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid rgb(223, 223, 223);
+	margin-bottom:25px;
+}
+
+#contact .container form input:focus,
+#contact .container form textarea:focus {
+	border:2px solid #dd4545;
+	color:rgb(255, 255, 255);
+}
+
+#contact .container form textarea {
+	height:150px;
+}
+
+#contact .container form .submit {
+	width:20%;
+	padding:5px 10px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background: teal;
+	height:40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #ffffff;
+	margin-left: 50px;
+}
+
+#contact .container form .submit:hover {
+	color:#FFF;
+	border:2px solid #ffffff;
+	background: #37bb1d;
+	cursor:pointer;
+}
+
+#contact .container form .required {
+	color:#b43838;
+}
+
+/**
+ * This is the code for the form
+ */
+ 
+footer {
+    height: 55px;
+	background-color: rgb(86, 92, 92);
+	margin-top: 90px;
+}
+
+#footer {
+    left: 50%;
+    top: 15px;
+    position: relative;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
